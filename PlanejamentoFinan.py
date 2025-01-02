@@ -14,7 +14,7 @@ data = {
 df = pd.DataFrame(data)
 
 #salva como xlsx
-file_path = "/mnt/data/Planejamento_Financeiro.xlsx"
+file_path = "C:/**/**/Planejamento_Financeiro.xlsx"
 df.to_excel(file_path, index=False)
 
 file_path
